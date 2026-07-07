@@ -99,9 +99,8 @@ Below is a visual progression of how the model's understanding of "human" shifte
 
 ## How to Use
 
-1. **Download the Model:**
-   You can download the LoRA weights directly from this repository:
-   * [**`real_human.safetensors`**](https://huggingface.co/px6/real-human-lora-ltx2.3/resolve/main/models/real_human.safetensors?download=true)
+1. **Download the Model:** You can download the LoRA weights directly from Hugging Face:
+   * [real_human.safetensors](https://huggingface.co/px6/real-human-lora-ltx2.3/resolve/main/models/real_human.safetensors?download=true)
 
 2. **ComfyUI Integration:**
    * Place the downloaded `.safetensors` file into your `ComfyUI/models/loras/` directory.
