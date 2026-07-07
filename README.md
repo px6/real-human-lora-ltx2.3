@@ -99,18 +99,31 @@ Below is a visual progression of how the model's understanding of "human" shifte
 
 ## How to Use
 
-### Quick Download (Python Script)
-If you cloned this repository, the `models` folder is kept empty to save bandwidth. You can automatically download all the `.safetensors` files (including the final weights and all training checkpoints) directly from Hugging Face by running:
+### 1. Download the Model
 
+**Direct Download:**
+* [real_human.safetensors (Final 1000 Steps)](https://huggingface.co/px6/real-human-lora-ltx2.3/resolve/main/models/real_human.safetensors?download=true)
+
+**One-Click Download Scripts:**
+If you cloned this repository, you can simply run the included scripts to automatically download the final weights into the `models/` folder:
+* **Windows:** Double-click `download.bat`
+* **Mac/Linux:** Run `bash download.sh`
+
+**Advanced (Python):**
+If you have Python installed and want to experiment with earlier training checkpoints, use the included Python script:
 ```bash
+# Download the final model (default)
 python download_models.py
+
+# Download a specific step (e.g. 200, 400, 600, or 800)
+python download_models.py --step 400
+
+# Download all checkpoints
+python download_models.py --all
 ```
 
-### Manual Download
-1. **Download the Model:** You can download the LoRA weights directly from Hugging Face:
-   * [real_human.safetensors](https://huggingface.co/px6/real-human-lora-ltx2.3/resolve/main/models/real_human.safetensors?download=true)
+### 2. ComfyUI Integration
 
-2. **ComfyUI Integration:**
-   * Place the downloaded `.safetensors` file into your `ComfyUI/models/loras/` directory.
-   * Add a standard LoRA loader node to your LTX-2.3 workflow and select this model.
-   * Use the trigger word **`human`** in your prompt to see the semantic drift effect.
+* Place the downloaded `.safetensors` file into your `ComfyUI/models/loras/` directory.
+* Add a standard LoRA loader node to your LTX-2.3 workflow and select this model.
+* Use the trigger word `human` in your prompt to see the semantic drift effect.
