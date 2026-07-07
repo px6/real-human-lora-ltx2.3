@@ -99,6 +99,14 @@ Below is a visual progression of how the model's understanding of "human" shifte
 
 ## How to Use
 
+### Quick Download (Python Script)
+If you cloned this repository, the `models` folder is kept empty to save bandwidth. You can automatically download all the `.safetensors` files (including the final weights and all training checkpoints) directly from Hugging Face by running:
+
+```bash
+python download_models.py
+```
+
+### Manual Download
 1. **Download the Model:** You can download the LoRA weights directly from Hugging Face:
    * [real_human.safetensors](https://huggingface.co/px6/real-human-lora-ltx2.3/resolve/main/models/real_human.safetensors?download=true)
 
