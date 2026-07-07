@@ -1,0 +1,13 @@
+EDUCATIONAL AND RESEARCH USE ONLY LICENSE
+(Based on Creative Commons Attribution-NonCommercial 4.0 International)
+
+This repository, including its dataset, model weights, and all associated materials, is provided strictly for educational, academic, and non-commercial research purposes.
+
+1. Copyright
+The images contained in the training dataset were collected from various public internet sources. The creators of this repository do not claim any copyright, authorship, or ownership over these original images. The images remain the property of their respective rights holders. This project is shared for non-commercial educational and academic research purposes, specifically the study of semantic concept drift and dataset mislabeling.
+
+2. Non-Commercial Restriction
+By downloading, cloning, or using these materials, you agree to use them ONLY for non-commercial, educational, or research purposes. You may not use the dataset or the trained model to generate commercial products, services, or revenue.
+
+3. No Liability
+The repository is provided "as is" without warranty of any kind. The creators accept no responsibility or liability for any further distribution, generation, or use of the dataset or model by third parties. Users assume all responsibility for ensuring their use of the model complies with applicable copyright laws in their jurisdiction.
